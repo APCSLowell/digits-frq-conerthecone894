@@ -24,7 +24,7 @@ public class Digits
 			return true;
 		}
 
-		String x = Integer.toString(y);
+		
 		for(int i = 1; i < digitList.size(); i++){
 			int a = digitList.get(i);
 			int b = digitList.get(i-1);
