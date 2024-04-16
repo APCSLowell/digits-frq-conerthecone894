@@ -29,7 +29,7 @@ public class Digits
 			int a = num%10;
 			int b = (num/10)%10;
 
-			if(b > a)
+			if(b >= a)
 				return false;
 		}
 
