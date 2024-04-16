@@ -20,15 +20,14 @@ public class Digits
 
 	public boolean isStrictlyIncreasing()
 	{ /* to be implemented in part (b) */
-		if(y%10 == y){
+		if(digitList.size() == 1){
 			return true;
 		}
 
 		String x = Integer.toString(y);
-		for(int i = 0; i < x.length(); i++){
-			int a = y%10;
-			int b = (y/10)%10;
-
+		for(int i = 1; i < digitList.size(); i++){
+			int a = digitList.get(i);
+			int b = digitList.get(i-1);
 			if(b >= a)
 				return false;
 		}
