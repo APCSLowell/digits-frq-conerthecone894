@@ -20,7 +20,7 @@ public class Digits
 
 	public boolean isStrictlyIncreasing()
 	{ /* to be implemented in part (b) */
-		if(num%10 = num){
+		if(num%10 == num){
 			return true;
 		}
 
