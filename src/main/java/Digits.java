@@ -25,7 +25,7 @@ public class Digits
 		}
 
 		String x = Integer.toString(num);
-		for(int i = 0; i < x.length()-1; i++){
+		for(int i = 0; i < x.length(); i++){
 			int a = num%10;
 			int b = (num/10)%10;
 
