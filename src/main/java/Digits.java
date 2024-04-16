@@ -12,7 +12,7 @@ public class Digits
 	    	String x = Integer.toString(num);
 		int y = num;
 
-		for(int i = 0; i < x.length(); i++){
+		for(int i = x.length()-1, i >= 0; i--){
 			digitList.add(y%10);
 			y = y/10;
 		}
